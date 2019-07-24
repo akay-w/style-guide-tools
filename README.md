@@ -12,3 +12,6 @@ I wrote this to work on a specific format of Excel file that we were using (shee
 
 Style_guide_tool_2.py:
 This tool was designed to run on an .xlsm file with the source text in column 1 and the target text in column 2, with the checks starting in row 2 (leaving room for a header). It checks for correct symbol usage, correct translation of VDC/VAC, spaces between numbers and common units, forbidden terms, commas in numbers with 4 or more digits, matching numbers of brackets, contractions, etc. according to a style guide that we had for specific projects.
+
+video_style_guide_tool.py:
+I wrote this style guide tool to work on a specific format of Excel file for video subtitle translation. In addition to selecting the file to check, the user needs to input the starting cell in the Excel file for the check in the format "A1". It checks rules such as line length, whether specific title text is present, and symbol usage. If any errors are found, the cell background is changed to red, and the error description is added to the cell text.
